@@ -37,7 +37,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  max-width: 540px;
+  max-width: 720px;
   min-width: 270px;
 }
 
@@ -48,6 +48,7 @@ main {
   height: 204px;
   width: 135px;
   margin: auto;
+  margin-right: 5%;
 }
 
 .main-section-row {
@@ -65,9 +66,10 @@ main img {
 }
 
 .main-page-line {
-  width: 90%;
+  width: 80%;
   /*height: 1vh;*/
   border-bottom: 1px solid black;
+  margin: 0 auto;
 }
 
 footer {
